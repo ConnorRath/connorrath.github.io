@@ -3,5 +3,4 @@ function writeToP(nameOfP, stringToPrint) {
     document.getElementById(nameOfP).innerHTML = (stringToPrint);
 }
 
-writeToP("intro", "Welcome to Jerk Squad Automated Assistant");
-writeToP("question", "Are you the User or the Professional?");
+writeToP("question","Hello User. I'm glad you've chosen to use me over google.");
