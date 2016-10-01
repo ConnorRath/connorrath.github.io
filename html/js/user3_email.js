@@ -3,4 +3,4 @@ function writeToP(nameOfP, stringToPrint) {
     document.getElementById(nameOfP).innerHTML = (stringToPrint);
 }
 writeToP("narrative", "You are a waste of bandwidth...");
-writeToP("question", "Is this relate to Email or Outlook in anyway?");
+writeToP("question", "Is this related to Email or Outlook in anyway?");
