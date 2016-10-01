@@ -3,4 +3,4 @@ function writeToP(stringToPrint) {
     document.getElementById("intro").innerHTML = (stringToPrint);
 }
 
-writeToP("TURN DOWN YOUR FUCKING MIC");
+writeToP("Welcome to Jerk Squad AI Assistant");
