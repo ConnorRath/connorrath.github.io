@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Regular.ttf") format('ttf');
+  }
+
+body {
+    font-family: Roboto;
+    font-size: 350%;
+    background-color: #770000;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+
+p {
+    margin-top:3%;
+    margin-bottom:3%;
+}
+
+div {
+    color: #AA8383;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+
+footer {
+    margin-top:10%;
+}
