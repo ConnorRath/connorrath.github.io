@@ -9,5 +9,5 @@ document.getElementById("yes").addEventListener("mousedown", function(){
 }, false);
 
 document.getElementById("no").addEventListener("mousedown", function(){
-  setTimeout("window.location.href='pro1.html';", 500);
+  setTimeout("window.location.href='2-1.html';", 500);
 }, false);

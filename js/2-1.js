@@ -7,7 +7,7 @@ writeToP("question", "Would you like to use my age-to-issue automatic sensing te
 
 
 document.getElementById("yes").addEventListener("mousedown", function(){
-  setTimeout("window.location.href='pro2.html';", 500);
+  setTimeout("window.location.href='2-2.html';", 500);
 }, false);
 
 
