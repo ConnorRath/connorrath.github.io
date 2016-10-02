@@ -1,7 +1,7 @@
 <html>    
     <head>
         <style>
-        @import 'https://fonts.googleapis.com/css?family=Roboto';
+        @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300,400';
         </style>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css">
@@ -19,13 +19,15 @@
     <body>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>        <p id="intro" align="center"></p>
-        <p id="question" align="center"></p>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+        <p id="intro" align="center"></p>
+        
         <div align="center">
-            <input type="button" onclick="location.href='user.html';" value="User" />
-            <input type="button" onclick="location.href='pro.html';" value="Professional" />
+            <p id="question"></p>
+            <a id="user" class="waves-effect waves-light btn-large" >User</a>
+            <a id="pro" class="waves-effect waves-light btn-large">Professional</a>
         </div>
         
     </body>
-    <script src="js\splash.js"></script>
+    <script src="js/index.js"></script>
 </html>

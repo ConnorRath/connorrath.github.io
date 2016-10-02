@@ -2,8 +2,16 @@
     
     <head>
         <style>
-        @import 'https://fonts.googleapis.com/css?family=Roboto';
+        @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300,400';
         </style>
+        <style>
+.showButon{
+    background:url('http://spacetelescope.github.io/understanding-json-schema/_static/pass.png');
+    background-repeat:repeat-y;
+    height:30px;
+    text-indent:20px;
+}
+</style>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css">
         <!--Import Google Icon Font-->
@@ -20,14 +28,21 @@
     <body>
        <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>       <p id="narrative" align="center"></p>
-        <p id="question" align="center"></p>
+      <script type="text/javascript" src="js/materialize.min.js"></script><p id="narrative" align="center"></p>
         <div align="center">
-            <input type="button" onclick="location.href='pro2.html;" value="Yes" />
-            <input type="button" onclick="location.href='pro2.html';" value="No" />
-            <input type="button" onclick="location.href='pro2.html';" value="I'm not sure" />
-            <input type="button" onclick="location.href='pro2.html';" value="That's not even possible... is it?" />
-        </div>        
+            <p id="question" align="center"></p>
+            <a id="yes" class="waves-effect waves-light btn-large tooltipped" data-position="top" data-delay="50" data-tooltip="I knew you'd want to!">Yes</a>
+            <a id="no" class="waves-effect waves-light btn-large tooltipped" data-position="top" data-delay="50" data-tooltip="Yes you do" >No</a>                     
+        </div>
+        <div align="center"><a id="imns" class="waves-effect waves-light btn-large btn tooltipped" data-position="top" data-delay="50" data-tooltip="It's really nice!">I really don't...</a>
+        </div>
+        <div align="center"><a id="poss" class="waves-effect waves-light btn-large tooltipped" data-position="bottom" data-delay="50" data-tooltip="OH please, I worked really hard on it!">That's not even possible... is it?</a>
+        </div>
+       
+
+
+        
+
     </body>
     <script src="js\pro1.js"></script>
 </html>
