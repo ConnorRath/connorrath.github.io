@@ -13,3 +13,7 @@ function sleep(milliseconds) {
 }
 writeToP("narrative", "Don't lie to me");
 writeToP("question", "Have you tried restarting it?");
+
+document.getElementById("Yes!!").addEventListener("mousedown", function(){
+  setTimeout("location.href='user3_email.html';", 500);
+}, false);
