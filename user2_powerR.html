@@ -1,16 +1,32 @@
 <html>
     
     <head>
+        <style>
+        @import 'https://fonts.googleapis.com/css?family=Roboto';
+        </style>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>        
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Jerk Squad AI Assistant</title>
         <meta name="description" content="A sassy take on Automated IT">
     </head>
     <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>      
         <p id="narrative" align="center"></p>
         <p id="question" align="center"></p>
         <div align="center">
             <input type="button" onclick="location.href='user3_email.html';" value="Yes!!" />
+            <script sleep(500)></script>
+            <a class="waves-effect waves-light btn" onclick="location.href='user3_email.html';">button</a>
             <input type="button" onclick="location.href='user0_WDH.html';" value="No..." />
         </div>        
     </body>
