@@ -11,3 +11,6 @@ document.getElementById("fixed").addEventListener("mousedown", function(){
 document.getElementById("broke").addEventListener("mousedown", function(){
   setTimeout("window.location.href='1-4.html';", 500);
 }, false);
+ $(document).ready(function(){
+      $('.parallax').parallax();
+    });

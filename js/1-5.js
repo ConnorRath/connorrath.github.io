@@ -7,3 +7,7 @@ writeToP("question", "Enter your problem on the line below");
 document.getElementById("submit").addEventListener("mousedown", function(){
   setTimeout("window.location.href='http://www.google.com/#q=I\'m+incompetent+and+' + userInput.value;", 500);
 }, false);
+ 
+$(document).ready(function(){
+      $('.parallax').parallax();
+    });

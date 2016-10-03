@@ -1,3 +1,8 @@
+ $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+
+
 function writeToP(nameOfP, stringToPrint) {
     "use strict";
     document.getElementById(nameOfP).innerHTML = (stringToPrint);

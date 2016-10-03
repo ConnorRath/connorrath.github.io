@@ -11,3 +11,6 @@ document.getElementById("yes").addEventListener("mousedown", function(){
 document.getElementById("no").addEventListener("mousedown", function(){
   setTimeout("window.location.href='2-1.html';", 500);
 }, false);
+ $(document).ready(function(){
+      $('.parallax').parallax();
+    });
