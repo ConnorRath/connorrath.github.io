@@ -24,9 +24,20 @@ div {
 
 
 footer {
-    padding-top: 0px;
-    padding-bottom: 10px;
-    width: auto;
-    margin: auto;
-    text-align: center;
+    
+    font-size: 30%;
+   
 }
+.alignleft{
+    color: #AA8383;
+    float: left;
+    padding-left: 5%;
+    padding-bottom: 1%;
+}
+.alignright {
+    color: #AA8383;
+    float: right;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+
