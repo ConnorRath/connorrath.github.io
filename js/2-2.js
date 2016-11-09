@@ -16,7 +16,7 @@ document.getElementById("13").addEventListener("mousedown", function(){
   setTimeout("window.location.href='https://www.google.com/#q=how+to+remove+viruses+from+PRWNZ';", 500);
 }, false);
 document.getElementById("25").addEventListener("mousedown", function(){
-  setTimeout("window.location.href='https://www.google.com/#q=how+to+make+it+\'just+work\'';", 500);
+  setTimeout("window.location.href='https://www.google.com/#q=best+cheap+computer';", 500);
 }, false);
 
 document.getElementById("65").addEventListener("mousedown", function(){
